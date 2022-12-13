@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3247B3AF2948BDD20093D0CF /* bread_and_butterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3AE2948BDD20093D0CF /* bread_and_butterApp.swift */; };
+		3247B3B12948BDD20093D0CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3B02948BDD20093D0CF /* ContentView.swift */; };
+		3247B3B32948BDD30093D0CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3247B3B22948BDD30093D0CF /* Assets.xcassets */; };
+		3247B3B62948BDD30093D0CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3247B3B52948BDD30093D0CF /* Preview Assets.xcassets */; };
+		3247B3C02948BDD30093D0CF /* bread_and_butterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3BF2948BDD30093D0CF /* bread_and_butterTests.swift */; };
+		3247B3CA2948BDD30093D0CF /* bread_and_butterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3C92948BDD30093D0CF /* bread_and_butterUITests.swift */; };
+		3247B3CC2948BDD30093D0CF /* bread_and_butterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3CB2948BDD30093D0CF /* bread_and_butterUITestsLaunchTests.swift */; };
+		3247B3DB2948BE530093D0CF /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3DA2948BE530093D0CF /* Friend.swift */; };
+		3247B3DD2948BEE60093D0CF /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3DC2948BEE60093D0CF /* Friends.swift */; };
+		3247B3DF2948C7BA0093D0CF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3247B3DE2948C7BA0093D0CF /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3247B3BC2948BDD30093D0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3247B3A32948BDD20093D0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3247B3AA2948BDD20093D0CF;
+			remoteInfo = "bread and butter";
+		};
+		3247B3C62948BDD30093D0CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3247B3A32948BDD20093D0CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3247B3AA2948BDD20093D0CF;
+			remoteInfo = "bread and butter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3247B3AB2948BDD20093D0CF /* bread and butter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bread and butter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247B3AE2948BDD20093D0CF /* bread_and_butterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bread_and_butterApp.swift; sourceTree = "<group>"; };
+		3247B3B02948BDD20093D0CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3247B3B22948BDD30093D0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3247B3B52948BDD30093D0CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3247B3BB2948BDD30093D0CF /* bread and butterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bread and butterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247B3BF2948BDD30093D0CF /* bread_and_butterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bread_and_butterTests.swift; sourceTree = "<group>"; };
+		3247B3C52948BDD30093D0CF /* bread and butterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bread and butterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3247B3C92948BDD30093D0CF /* bread_and_butterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bread_and_butterUITests.swift; sourceTree = "<group>"; };
+		3247B3CB2948BDD30093D0CF /* bread_and_butterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bread_and_butterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3247B3DA2948BE530093D0CF /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		3247B3DC2948BEE60093D0CF /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		3247B3DE2948C7BA0093D0CF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3247B3A82948BDD20093D0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3B82948BDD30093D0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3C22948BDD30093D0CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3247B3A22948BDD20093D0CF = {
+			isa = PBXGroup;
+			children = (
+				3247B3AD2948BDD20093D0CF /* bread and butter */,
+				3247B3BE2948BDD30093D0CF /* bread and butterTests */,
+				3247B3C82948BDD30093D0CF /* bread and butterUITests */,
+				3247B3AC2948BDD20093D0CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3247B3AC2948BDD20093D0CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3247B3AB2948BDD20093D0CF /* bread and butter.app */,
+				3247B3BB2948BDD30093D0CF /* bread and butterTests.xctest */,
+				3247B3C52948BDD30093D0CF /* bread and butterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3247B3AD2948BDD20093D0CF /* bread and butter */ = {
+			isa = PBXGroup;
+			children = (
+				3247B3AE2948BDD20093D0CF /* bread_and_butterApp.swift */,
+				3247B3B02948BDD20093D0CF /* ContentView.swift */,
+				3247B3DE2948C7BA0093D0CF /* DetailView.swift */,
+				3247B3DA2948BE530093D0CF /* Friend.swift */,
+				3247B3DC2948BEE60093D0CF /* Friends.swift */,
+				3247B3B22948BDD30093D0CF /* Assets.xcassets */,
+				3247B3B42948BDD30093D0CF /* Preview Content */,
+			);
+			path = "bread and butter";
+			sourceTree = "<group>";
+		};
+		3247B3B42948BDD30093D0CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3247B3B52948BDD30093D0CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3247B3BE2948BDD30093D0CF /* bread and butterTests */ = {
+			isa = PBXGroup;
+			children = (
+				3247B3BF2948BDD30093D0CF /* bread_and_butterTests.swift */,
+			);
+			path = "bread and butterTests";
+			sourceTree = "<group>";
+		};
+		3247B3C82948BDD30093D0CF /* bread and butterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3247B3C92948BDD30093D0CF /* bread_and_butterUITests.swift */,
+				3247B3CB2948BDD30093D0CF /* bread_and_butterUITestsLaunchTests.swift */,
+			);
+			path = "bread and butterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3247B3AA2948BDD20093D0CF /* bread and butter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3247B3CF2948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butter" */;
+			buildPhases = (
+				3247B3A72948BDD20093D0CF /* Sources */,
+				3247B3A82948BDD20093D0CF /* Frameworks */,
+				3247B3A92948BDD20093D0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bread and butter";
+			productName = "bread and butter";
+			productReference = 3247B3AB2948BDD20093D0CF /* bread and butter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3247B3BA2948BDD30093D0CF /* bread and butterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3247B3D22948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butterTests" */;
+			buildPhases = (
+				3247B3B72948BDD30093D0CF /* Sources */,
+				3247B3B82948BDD30093D0CF /* Frameworks */,
+				3247B3B92948BDD30093D0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3247B3BD2948BDD30093D0CF /* PBXTargetDependency */,
+			);
+			name = "bread and butterTests";
+			productName = "bread and butterTests";
+			productReference = 3247B3BB2948BDD30093D0CF /* bread and butterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3247B3C42948BDD30093D0CF /* bread and butterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3247B3D52948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butterUITests" */;
+			buildPhases = (
+				3247B3C12948BDD30093D0CF /* Sources */,
+				3247B3C22948BDD30093D0CF /* Frameworks */,
+				3247B3C32948BDD30093D0CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3247B3C72948BDD30093D0CF /* PBXTargetDependency */,
+			);
+			name = "bread and butterUITests";
+			productName = "bread and butterUITests";
+			productReference = 3247B3C52948BDD30093D0CF /* bread and butterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3247B3A32948BDD20093D0CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3247B3AA2948BDD20093D0CF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3247B3BA2948BDD30093D0CF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3247B3AA2948BDD20093D0CF;
+					};
+					3247B3C42948BDD30093D0CF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3247B3AA2948BDD20093D0CF;
+					};
+				};
+			};
+			buildConfigurationList = 3247B3A62948BDD20093D0CF /* Build configuration list for PBXProject "bread and butter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3247B3A22948BDD20093D0CF;
+			productRefGroup = 3247B3AC2948BDD20093D0CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3247B3AA2948BDD20093D0CF /* bread and butter */,
+				3247B3BA2948BDD30093D0CF /* bread and butterTests */,
+				3247B3C42948BDD30093D0CF /* bread and butterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3247B3A92948BDD20093D0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247B3B62948BDD30093D0CF /* Preview Assets.xcassets in Resources */,
+				3247B3B32948BDD30093D0CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3B92948BDD30093D0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3C32948BDD30093D0CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3247B3A72948BDD20093D0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247B3DB2948BE530093D0CF /* Friend.swift in Sources */,
+				3247B3B12948BDD20093D0CF /* ContentView.swift in Sources */,
+				3247B3AF2948BDD20093D0CF /* bread_and_butterApp.swift in Sources */,
+				3247B3DF2948C7BA0093D0CF /* DetailView.swift in Sources */,
+				3247B3DD2948BEE60093D0CF /* Friends.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3B72948BDD30093D0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247B3C02948BDD30093D0CF /* bread_and_butterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3247B3C12948BDD30093D0CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3247B3CA2948BDD30093D0CF /* bread_and_butterUITests.swift in Sources */,
+				3247B3CC2948BDD30093D0CF /* bread_and_butterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3247B3BD2948BDD30093D0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3247B3AA2948BDD20093D0CF /* bread and butter */;
+			targetProxy = 3247B3BC2948BDD30093D0CF /* PBXContainerItemProxy */;
+		};
+		3247B3C72948BDD30093D0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3247B3AA2948BDD20093D0CF /* bread and butter */;
+			targetProxy = 3247B3C62948BDD30093D0CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3247B3CD2948BDD30093D0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3247B3CE2948BDD30093D0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3247B3D02948BDD30093D0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bread and butter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3247B3D12948BDD30093D0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bread and butter/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3247B3D32948BDD30093D0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bread and butter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bread and butter";
+			};
+			name = Debug;
+		};
+		3247B3D42948BDD30093D0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bread and butter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bread and butter";
+			};
+			name = Release;
+		};
+		3247B3D62948BDD30093D0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bread and butter";
+			};
+			name = Debug;
+		};
+		3247B3D72948BDD30093D0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S5KXF68WA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arthur.Sh.bread-and-butterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bread and butter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3247B3A62948BDD20093D0CF /* Build configuration list for PBXProject "bread and butter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247B3CD2948BDD30093D0CF /* Debug */,
+				3247B3CE2948BDD30093D0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3247B3CF2948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247B3D02948BDD30093D0CF /* Debug */,
+				3247B3D12948BDD30093D0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3247B3D22948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247B3D32948BDD30093D0CF /* Debug */,
+				3247B3D42948BDD30093D0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3247B3D52948BDD30093D0CF /* Build configuration list for PBXNativeTarget "bread and butterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3247B3D62948BDD30093D0CF /* Debug */,
+				3247B3D72948BDD30093D0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3247B3A32948BDD20093D0CF /* Project object */;
+}
