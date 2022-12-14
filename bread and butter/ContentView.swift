@@ -52,19 +52,16 @@ struct ContentView: View {
             print("Wrong url")
             return
         }
-        let urlRequest = URLRequest(url: url)
         
-        do{
-            let (data, _) = try await URLSession.shared.data(for: urlRequest)
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
             
             if let decoded = try? JSONDecoder().decode([Friend].self, from: data) {
                 friends.friendArray = decoded
             }
-            
         } catch {
-            print("Failed to load data")
+            print("an error")
         }
-        
     }
 }
 
